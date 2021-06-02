@@ -2,10 +2,10 @@
 WEEK 4 PacMan Movement Exercise Assignment at MIT
 
 ### Description 
-The assignment was to simulate PacMan biting down across the screen. 
+The assignment was to simulate PacMan biting down across the screen. I used four different images of PacMan. I was able to update them giving the illusion he was eating. 
 
 ### Installation
-I used four different images of PacMan and using an array I was able to update them depending on where the image was located in relationship to the webpage. 
+Apply is to the web browser. No additional software is necessary.  
 
 ### Usage
 The function is called on a mouse click. Every time it is called it will update the image, position and direction on the screen. 
@@ -14,7 +14,7 @@ The function is called on a mouse click. Every time it is called it will update 
 twitter.com/RYANMcBRlDE
 
 ### Roadmap
-Ultimately I would love to apply some arrow key functionality. Let Pac move freely. I could afford to add some animation like colors and Ghosts! 
+Ultimately I would love to apply some arrow key functionality. Let Pac move freely. I could afford to add some animation and colors. Ghosts for him to eat! 
 
 ##### License Information:
 MIT License
