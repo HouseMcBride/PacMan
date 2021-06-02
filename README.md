@@ -1,5 +1,5 @@
 # PacMan
-PacMan Movement Exercise Assignment at MIT
+WEEK 4 PacMan Movement Exercise Assignment at MIT
 
 ### Description 
 The assignment was to simulate PacMan biting down across the screen. 
