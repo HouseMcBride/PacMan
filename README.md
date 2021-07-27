@@ -11,7 +11,7 @@ It was made in the browser. No additional software is necessary.
 The function is called on a mouse click. Every time it is called it will update the image, position and direction on the screen. 
 
 ### Support 
-twitter.com/RYANMcBRlDE
+twitter.com/RYANMcBR1DE
 
 ### Roadmap
 Ultimately I would love to apply some arrow key functionality. Let Pac move freely. I could afford to add some animation and colors. Ghosts for him to eat! 
