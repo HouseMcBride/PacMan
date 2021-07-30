@@ -37,7 +37,7 @@ setInterval(Run, 200);
 
 // This function determines the direction of PacMan based on screen edge detection. 
 function checkPageBounds(direction, imgWidth, pos, pageWidth) {
-  //
+
   // Reverse direction upon hitting screen edge
   if (direction == 0 && pos + imgWidth > pageWidth) direction = 1;
   if (direction == 1 && pos < 0)
