@@ -1,7 +1,9 @@
 // pos is the PacMan image position variable- it is set to 0 initially
 var pos = 0;
+
 //pageWidth is the width of the webpage. This is later used to calculate when Pac-Man needs to turn around. 
 let pageWidth = window.innerWidth;
+
 //This array contains all the PacMan movement images
 const pacArray = [
   ['./images/PacMan1.png', './images/PacMan2.png'],
@@ -32,14 +34,11 @@ function Run() {
   }
 }
 setInterval(Run, 200);
-// TODO: Add a Javascript setInterval() method that will call the Run() function above every 200 milliseconds. Note: in the video, Dr. Williams uses the setTimeout() method, but here we are going to use a slightly different
-// method called setInterval(), so that you can have practice using this method.
-// Inside of the Run() function you will also have to add an extra argument "pageWidth", which is declared on line 4 when you call the checkPageBounds() function below. 
 
 // This function determines the direction of PacMan based on screen edge detection. 
 function checkPageBounds(direction, imgWidth, pos, pageWidth) {
   //
-  // TODO: Complete this to reverse direction upon hitting screen edge
+  // Reverse direction upon hitting screen edge
   if (direction == 0 && pos + imgWidth > pageWidth) direction = 1;
   if (direction == 1 && pos < 0)
   direction = 0;
